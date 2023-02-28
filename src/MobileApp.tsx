@@ -1,6 +1,6 @@
-import { i18next } from '@assets';
-import { MobileProvider } from '@rn_core/core/src';
+import { MobileProvider } from '@rn-core/core';
 import { themeInit } from '@themes';
+import i18next from 'i18next';
 import React, { ReactNode } from 'react';
 import { StyleProp, ViewStyle } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';

@@ -1,5 +1,5 @@
 {
-  "name": "rn-components",
+  "name": "@rn-core/components",
   "version": "0.1.0",
   "description": "test",
   "main": "lib/commonjs/index",
@@ -49,6 +49,9 @@
   "homepage": "https://github.com/KMHtet/rn-components#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@rn-core/core": "../core"
   },
   "devDependencies": {
     "@evilmartians/lefthook": "^1.2.2",

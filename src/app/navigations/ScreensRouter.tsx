@@ -4,7 +4,7 @@ import LoginScreen from "@functions/login/LoginScreen";
 export const SCREENS = {
     HOMESCREEN: {
         name: 'HomeScreen',
-        component: HomeScreen,
+        component: HomeScreen
     },
     LOGINSCREEN: {
         name: 'LoginScreen',
